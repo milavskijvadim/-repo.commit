@@ -1,0 +1,4 @@
+switch (commandParts[0]) {
+                case "commit":
+                    repo.commit(String.join(" ", Arrays.copyOfRange(commandParts, 1, commandParts.length)));
+                    break;
